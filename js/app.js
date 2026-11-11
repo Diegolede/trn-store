@@ -238,7 +238,6 @@
               <ul>
                 <li><a href="#/envios">Envíos</a></li>
                 <li><a href="#/cambios">Cambios y devoluciones</a></li>
-                <li><a href="#/garantia">Garantía</a></li>
                 <li><a href="#/faq">Preguntas frecuentes</a></li>
                 <li><a href="#/contacto">Contacto</a></li>
               </ul>
@@ -563,8 +562,8 @@
       </section>
       <div class="trust-bar">
         <article><h3>Atención directa por WhatsApp</h3><p>Consultá stock y colores, te confirmamos y te pasamos el link de pago o los datos de transferencia.</p></article>
-        <article><h3>Garantía oficial 6 meses</h3><p>Cubrimos fallas de fabricación. Si algo no anda, lo resolvemos.</p></article>
-        <article><h3>Envíos a todo el país</h3><p>Despacho el mismo día hábil si el pago entra antes de las 13 h.</p></article>
+        <article><h3>Productos nuevos y sellados</h3><p>Todo sale nuevo, en su embalaje original, listo para usar.</p></article>
+        <article><h3>Cambios dentro de 30 días</h3><p>Sin uso y con su embalaje. También tenés el botón de arrepentimiento.</p></article>
         <article><h3>Pagá con Mercado Pago o transferencia</h3><p>Hasta ${STORE_CONFIG.installments} cuotas sin interés con Mercado Pago, o ${pct()}% off por transferencia, después de consultarnos.</p></article>
       </div>
       <div class="cat-head">
@@ -599,7 +598,7 @@
         </article>
         <article>
           <h3>Soporte en Argentina</h3>
-          <p>Garantía oficial, cambios claros y alguien que te responde por mail o WhatsApp, en español y en horario local.</p>
+          <p>Cambios claros y alguien que te responde por mail o WhatsApp, en español y en horario local.</p>
         </article>
       </div>
       <div class="section-head">
@@ -808,7 +807,7 @@
       <div class="prod-tabs" data-tabs>
         <button type="button" class="is-active" data-action="tab" data-tab="desc">Descripción</button>
         <button type="button" data-action="tab" data-tab="specs">Especificaciones</button>
-        <button type="button" data-action="tab" data-tab="ship">Envío y garantía</button>
+        <button type="button" data-action="tab" data-tab="ship">Envío</button>
       </div>
       <div class="tab-panel is-active" data-tab-panel="desc">
         <div class="prose"><p>${escapeHtml(p.description)}</p></div>
@@ -821,7 +820,7 @@
       </div>
       <div class="tab-panel prose" data-tab-panel="ship">
         <p>Envíos a todo el país. En CABA, 1 a 2 días hábiles; en GBA, 2 a 4; en el interior, 3 a 7, según la zona. Los pedidos pagos antes de las 13 h salen el mismo día hábil. Envío gratis en compras desde ${formatARS(STORE_CONFIG.freeShipping)}.</p>
-        <p>Garantía oficial TRN de 6 meses por fallas de fabricación. Tenés 30 días para cambios o devoluciones si el producto está sin uso y con su embalaje. Más detalle en <a href="#/envios">Envíos</a>, <a href="#/cambios">Cambios</a> y <a href="#/garantia">Garantía</a>.</p>
+        <p>Tenés 30 días para cambios o devoluciones si el producto está sin uso y con su embalaje. Más detalle en <a href="#/envios">Envíos</a> y <a href="#/cambios">Cambios</a>.</p>
       </div>
       ${also.length ? `
         <div class="section-head"><h2>También te puede interesar</h2></div>

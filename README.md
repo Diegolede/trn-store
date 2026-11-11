@@ -115,4 +115,4 @@ En las fichas y las cards, si no hay foto, se usa un placeholder:
 
 ## Contacto y textos legales
 
-En `STORE_CONFIG` (`js/data.js`) están el mail, WhatsApp, Instagram, TikTok, el umbral de envío gratis, las cuotas y los datos de transferencia. Las páginas de Ayuda y Legal (`#/envios`, `#/cambios`, `#/garantia`, `#/faq`, `#/contacto`, `#/terminos`, `#/privacidad`, `#/arrepentimiento`) ya tienen texto para una tienda en Argentina (incluye botón de arrepentimiento y el enlace a Defensa del consumidor), adaptado a la compra por WhatsApp.
+En `STORE_CONFIG` (`js/data.js`) están el mail, WhatsApp, Instagram, TikTok, el umbral de envío gratis, las cuotas y los datos de transferencia. Las páginas de Ayuda y Legal (`#/envios`, `#/cambios`, `#/faq`, `#/contacto`, `#/terminos`, `#/privacidad`, `#/arrepentimiento`) ya tienen texto para una tienda en Argentina (incluye botón de arrepentimiento y el enlace a Defensa del consumidor), adaptado a la compra por WhatsApp.

@@ -76,10 +76,6 @@ const FAQ_ITEMS = [
     a: "Tenés 30 días corridos desde que lo recibís para pedir un cambio o una devolución, si el producto está sin uso, con su embalaje y accesorios. Los gastos de devolución corren por tu cuenta, salvo que el ítem haya llegado fallado o no coincida con lo que compraste."
   },
   {
-    q: "¿Qué cubre la garantía?",
-    a: "Todos los productos tienen 6 meses de garantía oficial TRN por fallas de fabricación. No cubre desgaste normal, golpes, humedad ni modificaciones. Si hay un defecto, nos ocupamos de la reparación, el reemplazo o la devolución del importe, según el caso."
-  },
-  {
     q: "¿Emiten factura?",
     a: "Sí. Pedinos los datos fiscales por WhatsApp o mail al confirmar la compra y te la enviamos. Si necesitás una razón social distinta, avisanos antes de que salga el pedido."
   }
@@ -486,23 +482,6 @@ const SITE_PAGES = {
       <p>Si te arrepentís de la compra dentro de los plazos legales, también podés usar el <a href="#/arrepentimiento">botón de arrepentimiento</a>.</p>
     `
   },
-  garantia: {
-    title: "Garantía",
-    kicker: "Ayuda",
-    body: `
-      <p>Todos los productos TRN tienen 6 meses de garantía oficial por fallas de fabricación, que se suma a los derechos que te da la Ley de Defensa del Consumidor.</p>
-      <h2>Qué cubre</h2>
-      <p>Defectos de materiales o de armado que aparezcan con el uso normal: un sensor que falla, un switch que deja de responder, un pad con un despegue de base, un driver sin audio.</p>
-      <h2>Qué no cubre</h2>
-      <ul>
-        <li>Desgaste natural (skates, superficies de tela, tips, cables flexionados).</li>
-        <li>Golpes, humedad, líquidos, modificaciones o un uso distinto al indicado.</li>
-        <li>Pérdida de accesorios.</li>
-      </ul>
-      <h2>Cómo iniciarla</h2>
-      <p>Contactanos con el número de pedido, una descripción del problema y, si podés, un video corto. Coordinamos la recepción, lo revisamos y te proponemos reparación, reemplazo o reintegro, según corresponda. El tiempo de revisión habitual es de 5 a 10 días hábiles.</p>
-    `
-  },
   faq: {
     title: "Preguntas frecuentes",
     kicker: "Ayuda",
@@ -549,7 +528,7 @@ const SITE_PAGES = {
       <h2>Para qué los usamos</h2>
       <ul>
         <li>Coordinar la consulta, el pago y el envío.</li>
-        <li>Emitir factura y dar soporte de garantía o cambios.</li>
+        <li>Emitir factura y dar soporte de cambios o consultas.</li>
         <li>Enviarte novedades solo si te suscribís al newsletter, con la opción de darte de baja en cualquier momento.</li>
       </ul>
       <h2>Tus derechos</h2>
