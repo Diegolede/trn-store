@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TRN — Redirigiendo</title>
+    <script>
+      (function () {
+        var target = "./index.html" + (location.search || "") + (location.hash || "");
+        location.replace(target);
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <p>Redirigiendo al catálogo TRN… <a href="./index.html">Continuar</a></p>
+  </body>
+</html>
